@@ -62,7 +62,22 @@ A couple reasons this might be the case:
 ![A chart showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
 <hr>
 
-## Case study: War and Peace
+## Case study: A Christmas Carol by Charles Dickens
+### Most positive sentences
+| :point_right: | Sentence | Score |
+| ---- | ---- | ----- |
+| :+1:  | He became as good a friend, as good a<br>master, and as good a man, as the good old city knew, or<br>any other good old city, town, or borough, in the good old<br>world. | **+18** |
+| :+1:  | And perhaps it was the pleasure the good Spirit had in<br>showing off this power of his, or else it was his own kind,<br>generous, hearty nature, and his sympathy with all poor<br>men, that led him straight to Scrooge's clerk's; for there he<br>went, and took Scrooge with him, holding to his robe; and<br>on the threshold of the door the Spirit smiled, and stopped<br>to bless Bob Cratchit's dwelling with the sprinkling of his<br>torch. | **+16** |
+| :+1:  | Wonderful party, wonderful<br>games, wonderful unanimity, won-der-ful happiness! | **+15** |
+
+### Most negative sentences
+| :point_right: | Sentence | Score |
+| ---- | ---- | ----- |
+| :-1:  | Not a latent echo in the house, not a squeak and scuffle<br>from the mice behind the panelling, not a drip from the<br>half-thawed water-spout in the dull yard behind, not a sigh among<br>the leafless boughs of one despondent poplar, not the idle<br>swinging of an empty store-house door, no, not a clicking in<br>the fire, but fell upon the heart of Scrooge with a softening<br>influence, and gave a freer passage to his tears. | **-13** |
+| :-1:  | At one of these a lonely<br>boy was reading near a feeble fire; and Scrooge sat down<br>upon a form, and wept to see his poor forgotten self as he<br>used to be. | **-9** |
+| :-1:  | He recoiled in terror, for the scene had changed, and now<br>he almost touched a bed: a bare, uncurtained bed: on which,<br>beneath a ragged sheet, there lay a something covered up,<br>which, though it was dumb, announced itself in awful<br>language. | **-9** |
+
+## Case study: War and Peace by Leo Tolstoy
 ### Most positive sentences
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
