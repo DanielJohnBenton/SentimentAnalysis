@@ -22,9 +22,9 @@ let _fs = require("fs");
 	Case insensitive.
 */
 let _config = {
-	inputFile: "wap.txt",
+	inputFile: "sources/gigil.txt",
 	outputFile: "plot.txt",
-	sort: "none"
+	sort: "asc"
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -283,7 +283,7 @@ function Analyse(text)
 		sentences.sort(
 			function(a, b)
 			{
-				let scoreDifference = ((_config.sort == "ASC") ? (b.score - a.score) : (a.score - b.score));
+				let scoreDifference = ((_config.sort == "ASC") ? (a.score - b.score) : (b.score - a.score));
 				
 				return (scoreDifference || b.sanitised.length - a.sanitised.length);
 			}
