@@ -38,12 +38,12 @@ Unlisted words are scored **0**.
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles.
 
 ### King James Bible
-#### Most positive sentences
+#### Most positive sentence
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
 | :+1:  | 12:43 Also that day they offered great sacrifices, and rejoiced: for<br>God had made them rejoice with great joy: the wives also and the<br>children rejoiced: so that the joy of Jerusalem was heard even afar<br>off. | **+25** |
 
-#### Most negative sentences
+#### Most negative sentence
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
 | :-1:  | 5:21 Ye have heard that it was said by them of old time, Thou shalt<br>not kill; and whosoever shall kill shall be in danger of the judgment:<br>5:22 But I say unto you, That whosoever is angry with his brother<br>without a cause shall be in danger of the judgment: and whosoever<br>shall say to his brother, Raca, shall be in danger of the council: but<br>whosoever shall say, Thou fool, shall be in danger of hell fire. | **-25** |
