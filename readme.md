@@ -58,7 +58,7 @@ A couple reasons this might be the case:
 * Not enough information is present - sentiment is there, but there is no context, so some kind of interactive graph might be useful, in which you can mouse-over various spikes to see the analysed sentence(s)
 
 ### Graph: Sentiment distribution in the King James Bible
-![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time.png)
+![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_distribution.png)
 
 Well that's oddly symmetrical!
 
