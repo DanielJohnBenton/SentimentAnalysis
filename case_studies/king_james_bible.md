@@ -10,7 +10,7 @@
 | :-1:  | 5:21 Ye have heard that it was said by them of old time, Thou shalt<br>not kill; and whosoever shall kill shall be in danger of the judgment:<br>5:22 But I say unto you, That whosoever is angry with his brother<br>without a cause shall be in danger of the judgment: and whosoever<br>shall say to his brother, Raca, shall be in danger of the council: but<br>whosoever shall say, Thou fool, shall be in danger of hell fire. | **-25** |
 
 ## Graph: Sentiment throughout the King James Bible
-![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time.png)
+![A graph showing sentence sentiment throughout the King James Bible](../graphs/kjb_over_time.png)
 
 Graphing sentiment over the sentences of the text does not seem to reveal anything interesting.
 A couple reasons this might be the case:
@@ -19,4 +19,4 @@ A couple reasons this might be the case:
 * Not enough information is present - sentiment is there, but there is no context, so some kind of interactive graph might be useful, in which you can mouse-over various spikes to see the analysed sentence(s)
 
 ## Graph: Sentiment score distribution
-![A graph showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
+![A graph showing sentence sentiment score distribution in the King James Bible](../graphs/kjb_distribution.png)
