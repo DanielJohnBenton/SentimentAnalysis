@@ -62,6 +62,20 @@ A couple reasons this might be the case:
 ![A graph showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
 <hr>
 
+<hr>
+## Case study: War and Peace
+### Most positive sentences
+| :point_right: | Sentence | Score |
+| ---- | ---- | ----- |
+| :+1:  | Every young man who came to the house—seeing those<br>impressionable, smiling young faces (smiling probably at their own<br>happiness), feeling the eager bustle around him, and hearing the fitful<br>bursts of song and music and the inconsequent but friendly prattle of<br>young girls ready for anything and full of hope—experienced the same<br>feeling; sharing with the young folk of the Rostóvs’ household a<br>readiness to fall in love and an expectation of happiness. | **+19** |
+| :+1:  | Only it seems to me that Christian<br>love, love of one’s neighbor, love of one’s enemy, is worthier,<br>sweeter, and better than the feelings which the beautiful eyes of a<br>young man can inspire in a romantic and loving young girl like yourself. | **+18** |
+
+### Most negative sentences
+| :point_right: | Sentence | Score |
+| ---- | ---- | ----- |
+| :-1:  | Before partisan warfare had been officially recognized by the<br>government, thousands of enemy stragglers, marauders, and foragers had<br>been destroyed by the Cossacks and the peasants, who killed them off<br>as instinctively as dogs worry a stray mad dog to death. | **-18** |
+| :-1:  | It was not Napoleon alone who had experienced that nightmare feeling<br>of the mighty arm being stricken powerless, but all the generals and<br>soldiers of his army whether they had taken part in the battle or not,<br>after all their experience of previous battles—when after one tenth of<br>such efforts the enemy had fled—experienced a similar feeling of terror<br>before an enemy who, after losing HALF his men, stood as threateningly<br>at the end as at the beginning of the battle. | **-16** |
+
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
 * Language: Javascript
