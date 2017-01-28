@@ -31,3 +31,7 @@ It was made for analysing informal modern text (e.g. [Tweets](https://en.wikiped
 * Environment: Node.js
 * Graphs: Microsoft Excel
 * Libraries: None
+
+# Acknowledgements
+* [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) word-sentiment list ([paper](https://arxiv.org/pdf/1103.2903v1.pdf)) - Finn Årup Nielsen
+* [Emoji cheat sheet] (http://www.webpagefx.com/tools/emoji-cheat-sheet/) - WebpageFX
