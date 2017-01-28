@@ -43,6 +43,11 @@ I mostly ran the analysis on public domain books from [Project Gutenberg] (https
 | ---- | ---- | ----- |
 | :+1:  | 12:43 Also that day they offered great sacrifices, and rejoiced: for<br>God had made them rejoice with great joy: the wives also and the<br>children rejoiced: so that the joy of Jerusalem was heard even afar<br>off. | **+25** |
 
+#### Most negative sentences
+| :point_right: | Sentence | Score |
+| ---- | ---- | ----- |
+| :-1:  | 5:21 Ye have heard that it was said by them of old time, Thou shalt<br>not kill; and whosoever shall kill shall be in danger of the judgment:<br>5:22 But I say unto you, That whosoever is angry with his brother<br>without a cause shall be in danger of the judgment: and whosoever<br>shall say to his brother, Raca, shall be in danger of the council: but<br>whosoever shall say, Thou fool, shall be in danger of hell fire. | **-25** |
+
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
 * Language: Javascript
