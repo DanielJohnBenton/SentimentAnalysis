@@ -22,9 +22,9 @@ let _fs = require("fs");
 	Case insensitive.
 */
 let _config = {
-	inputFile: "kjb.txt",
+	inputFile: "wap.txt",
 	outputFile: "plot.txt",
-	sort: "asc"
+	sort: "none"
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -214,7 +214,7 @@ function Sentences(text)
 				newlinePileup = "";
 			}
 		}
-		else
+		else if(character != " " && character != "\t")
 		{
 			newlinePileup = "";
 		}
