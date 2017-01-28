@@ -15,7 +15,7 @@ _We were happy(**+3** :+1:) with the excellent(**+3** :+1:) service, but the bor
 ## Scoring words
 I used a file called [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf)) which contains a list of words with a _POSITIVE_ or _NEGATIVE_ score.
 
-Examples:
+Sentiment words have different scores to distinguish intensity - for example:
 
 | :point_right: | Word | Score |
 | ---- | ---- | ----- |
