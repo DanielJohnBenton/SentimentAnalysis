@@ -15,15 +15,16 @@ let _fs = require("fs");
 	=== outputFile ===
 	This file will just contain sentiment scores in the desired order, and nothing else. Pasted into Excel to make
 	a graph. Lazy. :^)
+	WARNING - this will overwrite existing files of the same name!
 	
 	=== sort ===
-	Use "ASC" or "DESC" - the console output will be sorted by sentiment score ascending or descending.
+	Use "ASC" or "DESC" or "NONE" - the console output will be sorted by sentiment score ascending or descending.
 	Case insensitive.
 */
 let _config = {
-	inputFile: "gardenstate.txt",
+	inputFile: "kjb.txt",
 	outputFile: "plot.txt",
-	sort: "desc"
+	sort: "asc"
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -277,14 +278,17 @@ function Analyse(text)
 		sentences[iSentences].score = score;
 	}
 	
-	sentences.sort(
-		function(a, b)
-		{
-			let scoreDifference = ((_config.sort == "ASC") ? (b.score - a.score) : (a.score - b.score));
-			
-			return (scoreDifference || b.sanitised.length - a.sanitised.length);
-		}
-	);
+	if(_config.sort != "NONE")
+	{
+		sentences.sort(
+			function(a, b)
+			{
+				let scoreDifference = ((_config.sort == "ASC") ? (b.score - a.score) : (a.score - b.score));
+				
+				return (scoreDifference || b.sanitised.length - a.sanitised.length);
+			}
+		);
+	}
 	
 	let scores = "";
 	for(let i = 0; i < sentences.length; i++)
