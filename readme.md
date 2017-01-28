@@ -37,7 +37,7 @@ Unlisted words are scored **0**.
 # Analysis
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles.
 
-### King James Bible
+### Case study: King James Bible
 #### Most positive sentence
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
