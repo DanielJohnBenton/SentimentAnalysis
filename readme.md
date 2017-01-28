@@ -37,7 +37,7 @@ Unlisted words are scored **0**.
 # Analysis
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles.
 
-<hr><hr>
+<hr>
 ### Case study: King James Bible
 #### Most positive sentence
 | :point_right: | Sentence | Score |
@@ -60,7 +60,7 @@ A couple reasons this might be the case:
 
 #### Graph: Sentiment score distribution
 ![A graph showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
-<hr><hr>
+<hr>
 
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
