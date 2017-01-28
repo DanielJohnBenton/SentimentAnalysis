@@ -28,7 +28,7 @@ It was made for analysing informal modern text (e.g. [Tweets](https://en.wikiped
 Unlisted words are scored **0**.
 
 ## Scoring sentences
-Sentences were split using common punctuation delimiters and double spaces. A sentence is scored as the total of the scores, e.g.:
+Sentences were split using common punctuation delimiters and double spaces. A sentence is scored as the total of the scores of its words, e.g.:
 
 _We were happy(**+3** :+1:) with the excellent(**+3** :+1:) service, but the boring(**-3** :-1:) music made us uncomfortable(**-2** :-1:)._
 
