@@ -18,7 +18,7 @@ let _fs = require("fs");
 	WARNING - this will overwrite existing files of the same name!
 	
 	=== sort ===
-	Use "ASC" or "DESC" or "NONE" - the console output will be sorted by sentiment score ascending or descending.
+	Use "ASC" or "DESC" or "NONE" - the console/file output will be sorted by sentiment score ascending or descending.
 	Case insensitive.
 */
 let _config = {
