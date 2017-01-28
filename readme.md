@@ -74,6 +74,9 @@ A couple reasons this might be the case:
 | ---- | ---- | ----- |
 | :-1:  | Before partisan warfare had been officially recognized by the<br>government, thousands of enemy stragglers, marauders, and foragers had<br>been destroyed by the Cossacks and the peasants, who killed them off<br>as instinctively as dogs worry a stray mad dog to death. | **-18** |
 | :-1:  | It was not Napoleon alone who had experienced that nightmare feeling<br>of the mighty arm being stricken powerless, but all the generals and<br>soldiers of his army whether they had taken part in the battle or not,<br>after all their experience of previous battles—when after one tenth of<br>such efforts the enemy had fled—experienced a similar feeling of terror<br>before an enemy who, after losing HALF his men, stood as threateningly<br>at the end as at the beginning of the battle. | **-16** |
+
+### Graph: Sentiment score distribution
+![A graph showing sentence sentiment score distribution in War and Peace](graphs/wap_distribution.png)
 <hr>
 
 # Technologies used
