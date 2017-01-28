@@ -299,14 +299,3 @@ function Analyse(text)
 }
 
 Analyse(ReadFile(_config.inputFile));
-
-
-
-
-
-
-
-
-
-
-
