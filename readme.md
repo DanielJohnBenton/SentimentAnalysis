@@ -12,14 +12,16 @@ Examples:
 
 | :point_right: | Word | Score |
 | ---- | ---- | ----- |
-| :+1:  | test | another test |
-| :+1:  | test | another test |
-| :+1:  | test | another test |
-| :+1:  | test | another test |
-| :-1:  | test | another test |
-| :-1:  | test | another test |
-| :-1:  | test | another test |
-| :-1:  | test | another test |
+| :+1:  | outstanding | **+5** |
+| :+1:  | fantastic | **+4** |
+| :+1:  | delight | **+3** |
+| :+1:  | advantage | **+2** |
+| :+1:  | adequate | **+1** |
+| :-1:  | alas | **-1** |
+| :-1:  | upset | **-2** |
+| :-1:  | violence | **-3** |
+| :-1:  | catastrophic | **-4** |
+| :-1:  | (expletives and racism) | **-5** |
 
 It was made for analysing informal modern text (e.g. [Tweets](https://en.wikipedia.org/wiki/Twitter)) and contains slang, but I have mostly used it for old, public-domain texts and found it to be very reliable.
 
