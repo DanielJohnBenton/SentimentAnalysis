@@ -30,7 +30,9 @@ Unlisted words are scored **0**.
 ## Scoring sentences
 Sentences were split using common punctuation delimiters and double spaces. A sentence is scored as the total of the scores, e.g.:
 
-_We were happy(**+3** :+1:) with the excellent(**+3** :+1:) service, but the boring(**-3** :-1:) music made us uncomfortable(**-2** :-1:)._ = (**+1** :+1:)
+_We were happy(**+3** :+1:) with the excellent(**+3** :+1:) service, but the boring(**-3** :-1:) music made us uncomfortable(**-2** :-1:)._
+
+**Sentence score: +1 :+1:**
 
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
