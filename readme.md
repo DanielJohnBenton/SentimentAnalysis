@@ -1,6 +1,6 @@
 # Goals
 - Score sentences in a source text by _POSITIVE_ or _NEGATIVE_ sentimentality
-- Find _best_ (most _POSITIVE_) and _worst (most _NEGATIVE_) sentences from the source text
+- Find _best_ (most _POSITIVE_) and _worst_ (most _NEGATIVE_) sentences from the source text
 - Plot sentence sentiments over time through the source text
 - Plot sentence scores sorted from _best_ to _worst_ on a graph for distribution
 
