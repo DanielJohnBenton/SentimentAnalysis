@@ -57,6 +57,11 @@ A couple reasons this might be the case:
 * The text is too varied - covering many topics in a somewhat haphazard manner
 * Not enough information is present - sentiment is there, but there is no context, so some kind of interactive graph might be useful, in which you can mouse-over various spikes to see the analysed sentence(s)
 
+### Graph: Sentiment distribution in the King James Bible
+![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time.png)
+
+Well that's oddly symmetrical!
+
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
 * Language: Javascript
