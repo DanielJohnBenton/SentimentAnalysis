@@ -76,6 +76,7 @@ A couple reasons this might be the case:
 | :-1:  | Not a latent echo in the house, not a squeak and scuffle<br>from the mice behind the panelling, not a drip from the<br>half-thawed water-spout in the dull yard behind, not a sigh among<br>the leafless boughs of one despondent poplar, not the idle<br>swinging of an empty store-house door, no, not a clicking in<br>the fire, but fell upon the heart of Scrooge with a softening<br>influence, and gave a freer passage to his tears. | **-13** |
 | :-1:  | At one of these a lonely<br>boy was reading near a feeble fire; and Scrooge sat down<br>upon a form, and wept to see his poor forgotten self as he<br>used to be. | **-9** |
 | :-1:  | He recoiled in terror, for the scene had changed, and now<br>he almost touched a bed: a bare, uncurtained bed: on which,<br>beneath a ragged sheet, there lay a something covered up,<br>which, though it was dumb, announced itself in awful<br>language. | **-9** |
+<hr>
 
 ## Case study: War and Peace by Leo Tolstoy
 ### Most positive sentences
