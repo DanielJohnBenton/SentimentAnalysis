@@ -49,13 +49,13 @@ I mostly ran the analysis on public domain books from [Project Gutenberg] (https
 | :-1:  | 5:21 Ye have heard that it was said by them of old time, Thou shalt<br>not kill; and whosoever shall kill shall be in danger of the judgment:<br>5:22 But I say unto you, That whosoever is angry with his brother<br>without a cause shall be in danger of the judgment: and whosoever<br>shall say to his brother, Raca, shall be in danger of the council: but<br>whosoever shall say, Thou fool, shall be in danger of hell fire. | **-25** |
 
 ### Graph: Sentiment throughout the King James Bible
+![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time.png)
+
 Graphing sentiment over the sentences of the text does not seem to reveal anything interesting.
 A couple reasons this might be the case:
-* The graph is at the wrong level - there are so many sentences that there is too much detail - getting the average per book might be a better idea
+* The graph is at the wrong level - there are so many sentences that there is too much detail - in this specific case, getting the average per book might be a better idea. In other cases, per-chapter or similar division could fulfill the same purpose
 * The text is too varied - covering many topics in a somewhat haphazard manner
 * Not enough information is present - sentiment is there, but there is no context, so some kind of interactive graph might be useful, in which you can mouse-over various spikes to see the analysed sentence(s)
-
-![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time.png)
 
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
