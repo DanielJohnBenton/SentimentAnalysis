@@ -10,10 +10,9 @@ I used a file called [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_deta
 
 Examples:
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Word | Score |
+| ---- | ----- |
+| test | another test |
 
 It was made for analysing informal modern text (e.g. [Tweets](https://en.wikipedia.org/wiki/Twitter)) and contains slang, but I have mostly used it for old, public-domain texts and found it to be very reliable.
 
