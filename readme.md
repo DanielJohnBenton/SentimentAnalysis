@@ -34,7 +34,7 @@ It was made for analysing informal modern text (e.g. [Tweets](https://en.wikiped
 
 Unlisted words are scored **0**.
 
-# Analysis
+# Analysis case studies
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles.
 
 <hr>
