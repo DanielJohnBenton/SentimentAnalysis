@@ -34,17 +34,14 @@ It was made for analysing informal modern text (e.g. [Tweets](https://en.wikiped
 
 Unlisted words are scored **0**.
 
-## Analysis
+# Analysis
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles.
 
 ### King James Bible
 #### Most positive sentences
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
-| :+1:  | 12:43 Also that day they offered great sacrifices, and rejoiced: for<br />
-God had made them rejoice with great joy: the wives also and the<br />
-children rejoiced: so that the joy of Jerusalem was heard even afar<br />
-off. | **+5** |
+| :+1:  | 12:43 Also that day they offered great sacrifices, and rejoiced: for<br>God had made them rejoice with great joy: the wives also and the<br>children rejoiced: so that the joy of Jerusalem was heard even afar<br>off. | **+5** |
 
 # Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
