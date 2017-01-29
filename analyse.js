@@ -28,7 +28,7 @@ let _config = {
 	inputFile: "sources/shakespeare.txt",
 	outputFile: "plot.txt",
 	sort: "desc",
-	log: 30
+	log: 7
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -289,7 +289,7 @@ function Analyse(text)
 			{
 				let scoreDifference = ((_config.sort == "ASC") ? (a.score - b.score) : (b.score - a.score));
 				
-				return (scoreDifference || b.sanitised.length - a.sanitised.length);
+				return (scoreDifference || a.sanitised.length - b.sanitised.length);
 			}
 		);
 	}
