@@ -22,9 +22,9 @@ let _fs = require("fs");
 	Case insensitive.
 */
 let _config = {
-	inputFile: "sources/gigil.txt",
+	inputFile: "sources/chester.txt",
 	outputFile: "plot.txt",
-	sort: "asc"
+	sort: "desc"
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -105,7 +105,6 @@ function Sanitise(text)
 	text = text.split("\n").join(" ");
 	
 	text = text.split("--").join(" ");
-	text = text.split(" st.").join(" ");
 	
 	let sanitised = "";
 	
@@ -183,6 +182,7 @@ function Sentences(text)
 		alphabet = "abcdefghijklmnopqrstuvwxyzé";
 	
 	text = text.split(" St.").join(" St");
+	text = text.split(" Jan.").join(" Jan");
 	
 	let sentences = [];
 	
