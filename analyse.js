@@ -20,11 +20,15 @@ let _fs = require("fs");
 	=== sort ===
 	Use "ASC" or "DESC" or "NONE" - the console/file output will be sorted by sentiment score ascending or descending.
 	Case insensitive.
+	
+	=== log ===
+	Limit the logged sentences in the console. The analysis is fast but the readouts are (comparatively) slow!
 */
 let _config = {
-	inputFile: "sources/chester.txt",
+	inputFile: "sources/shakespeare.txt",
 	outputFile: "plot.txt",
-	sort: "desc"
+	sort: "desc",
+	log: 30
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -294,9 +298,13 @@ function Analyse(text)
 	for(let i = 0; i < sentences.length; i++)
 	{
 		scores += sentences[i].score +"\n";
-		console.log("=====");
-		console.log(sentences[i].sentence);
-		console.log(sentences[i].score);
+		
+		if(i < _config.log)
+		{
+			console.log("=====");
+			console.log(sentences[i].sentence);
+			console.log(sentences[i].score);
+		}
 	}
 	
 	WriteFile(_config.outputFile, scores);
