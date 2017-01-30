@@ -81,6 +81,25 @@ A couple reasons this might be the case:
 ![A chart showing sentence sentiment score distribution in A Christmas Carol](graphs/acc_distribution.png)
 <hr>
 
+## Case study: The Complete Works of Shakespeare
+### Most positive sentences
+| :point_right: | Sentence | Score | Source |
+| ---- | ---- | ----- | ----- |
+| :+1:  | None here, he hopes,<br>In all this noble bevy, has brought with her<br>One care abroad; he would have all as merry<br>As, first, good company, good wine, good welcome,<br>Can make good people. | **+23** | _Henry VIII_ |
+| :+1:  | O wonderful, wonderful, most wonderful wonderful, and yet<br>again wonderful, and after that, out of all whooping! | **+20** | _As You Like It_ |
+| :+1:  | Tranio, since for the great desire I had<br>To see fair Padua, nursery of arts,<br>I am arriv'd for fruitful Lombardy,<br>The pleasant garden of great Italy,<br>And by my father's love and leave am arm'd<br>With his good will and thy good company,<br>My trusty servant well approv'd in all,<br>Here let us breathe, and haply institute<br>A course of learning and ingenious studies. | **+20** | _The Taming of the Shrew_ |
+
+### Most negative sentences
+| :point_right: | Sentence | Score | Source |
+| ---- | ---- | ----- | ----- |
+| :-1:  | Fear and be slain-no worse can come to fight;<br>And fight and die is death destroying death,<br>Where fearing dying pays death servile breath. | **-21** | _Richard II_ |
+| :-1:  | Come down and welcome me to this world's light;<br>Confer with me of murder and of death;<br>There's not a hollow cave or lurking-place,<br>No vast obscurity or misty vale,<br>Where bloody murder or detested rape<br>Can couch for fear but I will find them out;<br>And in their ears tell them my dreadful name-<br>Revenge, which makes the foul offender quake. | **-21** | _Titus Andronicus_ |
+| :-1:  |  I'll put't in proof,<br> And when I have stol'n upon these sons-in-law,<br> Then kill, kill, kill, kill, kill, kill! | **-20** | _King Lear_ |
+
+### Chart: Sentiment score distribution
+![A chart showing sentence sentiment score distribution in Shakespeare's complete works](graphs/shakespeare_distribution_no_0.png)
+<hr>
+
 ## Case study: War and Peace by Leo Tolstoy
 ### Most positive sentences
 | :point_right: | Sentence | Score |
