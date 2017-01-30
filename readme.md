@@ -34,11 +34,11 @@ It was made for analysing informal modern text (e.g. [Tweets](https://en.wikiped
 
 Unlisted words are scored **0**.
 
-# Analysis case studies
+# :books: Analysis case studies
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles. I am still adding to this section. :^)
 
 <hr>
-## Case study: The Complete Works of Shakespeare
+## :european_castle: Case study: The Complete Works of Shakespeare
 ### Most positive sentences
 | :point_right: | Sentence | Score | Source |
 | ---- | ---- | ----- | ----- |
@@ -57,7 +57,7 @@ I mostly ran the analysis on public domain books from [Project Gutenberg] (https
 ![A chart showing sentence sentiment score distribution in Shakespeare's complete works](graphs/shakespeare_distribution_no_0.png)
 
 <hr>
-## Case study: King James Bible
+## :pray: Case study: King James Bible
 ### Most positive sentence
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
@@ -81,7 +81,7 @@ A couple reasons this might be the case:
 ![A chart showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
 <hr>
 
-## Case study: A Christmas Carol by Charles Dickens
+## :christmas_tree: Case study: A Christmas Carol by Charles Dickens
 ### Most positive sentences
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
@@ -100,7 +100,7 @@ A couple reasons this might be the case:
 ![A chart showing sentence sentiment score distribution in A Christmas Carol](graphs/acc_distribution.png)
 <hr>
 
-## Case study: War and Peace by Leo Tolstoy
+## :gun: Case study: War and Peace by Leo Tolstoy
 ### Most positive sentences
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
