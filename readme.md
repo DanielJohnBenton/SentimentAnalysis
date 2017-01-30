@@ -1,10 +1,10 @@
-# Goals
+# :golf: Aims
 - Score sentences in a source text by _POSITIVE_ or _NEGATIVE_ sentiment
 - Find _best_ (most _POSITIVE_) and _worst_ (most _NEGATIVE_) sentences from the source text
 - Plot sentence sentiment over time through the source text
 - Plot sentence scores sorted from _best_ to _worst_ on a graph for distribution
 
-# Method
+# :telescope: Method
 ## Scoring sentences
 Sentences were split using common punctuation delimiters and double spaces. A sentence is scored as the total of the scores of its words, e.g.:
 
@@ -53,7 +53,7 @@ I mostly ran the analysis on public domain books from [Project Gutenberg] (https
 | :-1:  | Come down and welcome me to this world's light;<br>Confer with me of murder and of death;<br>There's not a hollow cave or lurking-place,<br>No vast obscurity or misty vale,<br>Where bloody murder or detested rape<br>Can couch for fear but I will find them out;<br>And in their ears tell them my dreadful name-<br>Revenge, which makes the foul offender quake. | **-21** | _Titus Andronicus_ |
 | :-1:  |  I'll put't in proof,<br> And when I have stol'n upon these sons-in-law,<br> Then kill, kill, kill, kill, kill, kill! | **-20** | _King Lear_ |
 
-### Chart: Sentiment score distribution
+### :bar_chart: Chart: Sentiment score distribution
 ![A chart showing sentence sentiment score distribution in Shakespeare's complete works](graphs/shakespeare_distribution_no_0.png)
 
 <hr>
@@ -68,7 +68,7 @@ I mostly ran the analysis on public domain books from [Project Gutenberg] (https
 | ---- | ---- | ----- |
 | :-1:  | 5:21 Ye have heard that it was said by them of old time, Thou shalt<br>not kill; and whosoever shall kill shall be in danger of the judgment:<br>5:22 But I say unto you, That whosoever is angry with his brother<br>without a cause shall be in danger of the judgment: and whosoever<br>shall say to his brother, Raca, shall be in danger of the council: but<br>whosoever shall say, Thou fool, shall be in danger of hell fire. | **-25** |
 
-### Graph: Sentiment throughout the King James Bible
+### :bar_chart: Graph: Sentiment throughout the King James Bible
 ![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time.png)
 
 Graphing sentiment over the sentences of the text does not seem to reveal anything interesting.
@@ -77,7 +77,7 @@ A couple reasons this might be the case:
 * The text is too varied - covering many topics in a somewhat haphazard manner
 * Not enough information is present - sentiment is there, but there is no context, so some kind of interactive graph might be useful, in which you can mouse-over various spikes to see the analysed sentence(s)
 
-### Chart: Sentiment score distribution
+### :bar_chart: Chart: Sentiment score distribution
 ![A chart showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
 <hr>
 
@@ -96,7 +96,7 @@ A couple reasons this might be the case:
 | :-1:  | At one of these a lonely<br>boy was reading near a feeble fire; and Scrooge sat down<br>upon a form, and wept to see his poor forgotten self as he<br>used to be. | **-9** |
 | :-1:  | He recoiled in terror, for the scene had changed, and now<br>he almost touched a bed: a bare, uncurtained bed: on which,<br>beneath a ragged sheet, there lay a something covered up,<br>which, though it was dumb, announced itself in awful<br>language. | **-9** |
 
-### Chart: Sentiment score distribution
+### :bar_chart: Chart: Sentiment score distribution
 ![A chart showing sentence sentiment score distribution in A Christmas Carol](graphs/acc_distribution.png)
 <hr>
 
@@ -113,18 +113,18 @@ A couple reasons this might be the case:
 | :-1:  | Before partisan warfare had been officially recognized by the<br>government, thousands of enemy stragglers, marauders, and foragers had<br>been destroyed by the Cossacks and the peasants, who killed them off<br>as instinctively as dogs worry a stray mad dog to death. | **-18** |
 | :-1:  | It was not Napoleon alone who had experienced that nightmare feeling<br>of the mighty arm being stricken powerless, but all the generals and<br>soldiers of his army whether they had taken part in the battle or not,<br>after all their experience of previous battles—when after one tenth of<br>such efforts the enemy had fled—experienced a similar feeling of terror<br>before an enemy who, after losing HALF his men, stood as threateningly<br>at the end as at the beginning of the battle. | **-16** |
 
-### Chart: Sentiment score distribution
+### :bar_chart: Chart: Sentiment score distribution
 ![A chart showing sentence sentiment score distribution in War and Peace](graphs/wap_distribution.png)
 <hr>
 
-# Technologies used
+# :scissors: Technologies used
 * Word/sentiment list: [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) ([paper](https://arxiv.org/pdf/1103.2903v1.pdf))
 * Language: Javascript
 * Environment: Node.js
 * Graphs: Microsoft Excel
 * Libraries: None
 
-# Acknowledgements
+# :eggplant: Acknowledgements
 * [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) word-sentiment list ([paper](https://arxiv.org/pdf/1103.2903v1.pdf)) - Finn Årup Nielsen
 * [Project Gutenberg] (https://www.gutenberg.org/)
 * [Emoji cheat sheet] (http://www.webpagefx.com/tools/emoji-cheat-sheet/) - WebpageFX
