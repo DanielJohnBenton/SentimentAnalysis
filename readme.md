@@ -37,6 +37,7 @@ Unlisted words are scored **0**.
 # Analysis case studies
 I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles. I am still adding to this section. :^)
 
+<hr>
 ## Case study: The Complete Works of Shakespeare
 ### Most positive sentences
 | :point_right: | Sentence | Score | Source |
@@ -54,7 +55,6 @@ I mostly ran the analysis on public domain books from [Project Gutenberg] (https
 
 ### Chart: Sentiment score distribution
 ![A chart showing sentence sentiment score distribution in Shakespeare's complete works](graphs/shakespeare_distribution_no_0.png)
-<hr>
 
 <hr>
 ## Case study: King James Bible
