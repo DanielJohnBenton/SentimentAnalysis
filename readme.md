@@ -100,7 +100,7 @@ A couple reasons this might be the case:
 ![A chart showing sentence sentiment score distribution in A Christmas Carol](graphs/acc_distribution.png)
 <hr>
 
-## :gun: Case study: War and Peace by Leo Tolstoy
+## :hocho: Case study: War and Peace by Leo Tolstoy
 ### Most positive sentences
 | :point_right: | Sentence | Score |
 | ---- | ---- | ----- |
