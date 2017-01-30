@@ -35,7 +35,7 @@ It was made for analysing informal modern text (e.g. [Tweets](https://en.wikiped
 Unlisted words are scored **0**.
 
 # Analysis case studies
-I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles.
+I mostly ran the analysis on public domain books from [Project Gutenberg] (https://www.gutenberg.org/). I also tried it out on movie scripts and a couple news articles. I am still adding to this section. :^)
 
 ## Case study: The Complete Works of Shakespeare
 ### Most positive sentences
