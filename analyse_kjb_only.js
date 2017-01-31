@@ -257,7 +257,6 @@ function Analyse(text)
 }
 
 let books = ReadFile("kjb/kjb.txt").split("<BOOK>");
-let sentencesPerBook = [];
 let averagesPerBook = [];
 
 for(let iBooks = 1, nBooks = books.length; iBooks < nBooks; iBooks++)
