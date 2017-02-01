@@ -57,7 +57,7 @@ Graphing sentiment over the sentences of the text does not seem to reveal anythi
 So I tried splitting it out by book, and I think this reveals some more interesting features.
 
 ![A graph showing sentence sentiment throughout the King James Bible](graphs/kjb_over_time_per_book.png)
-_The bars show the mean average sentiment score of sentences with **sentiment score ≠ 0**_ (sentences with **score = 0** are ignored/discarded)
+_The bars show the mean average sentiment score of sentences with **sentiment score ≠ 0** (sentences with **score = 0** are ignored/discarded)_
 
 ### :bar_chart: Chart: Sentiment score distribution
 ![A chart showing sentence sentiment score distribution in the King James Bible](graphs/kjb_distribution.png)
