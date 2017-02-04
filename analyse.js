@@ -27,7 +27,7 @@ let _fs = require("fs");
 let _config = {
 	inputFile: "sources/shakespeare.txt",
 	outputFile: "plot.txt",
-	sort: "desc",
+	sort: "asc",
 	log: 7
 };
 
@@ -154,7 +154,7 @@ function Sanitise(text)
 */
 function AfinnLookupArray()
 {
-	let afinnFile = ReadFile("AFINN-111.txt").split("\n");
+	let afinnFile = ReadFile("AFINN-111-DJB-amended.txt").split("\n");
 	
 	let lookup = [];
 	
