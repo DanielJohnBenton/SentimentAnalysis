@@ -58,6 +58,34 @@ String.prototype.Contains = function(str)
 }
 
 /*
+	String.Replace (
+		ARRAY|STRING from,
+		STRING to,
+		BOOLEAN tenacious
+	): STRING
+*/
+String.prototype.Replace = function(from, to, tenacious)
+{
+	if(typeof(from) === "string")
+	{
+		from = [from];
+	}
+	
+	let newText = this;
+	
+	for(let i = 0, n = from.length; i < n; i++)
+	{
+		do
+		{
+			newText = newText.split(from[i]).join(to);
+		}
+		while(tenacious && newText.Contains(from[i]));
+	}
+	
+	return newText;
+}
+
+/*
 	ReadFile (
 		STRING name
 	): STRING
@@ -105,10 +133,7 @@ function Sanitise(text)
 {
 	text = text.toLowerCase();
 	
-	text = text.split("\r").join(" ");
-	text = text.split("\n").join(" ");
-	
-	text = text.split("--").join(" ");
+	text = text.Replace(["\r", "\n", "--"], " ", true);
 	
 	let sanitised = "";
 	
@@ -183,10 +208,10 @@ function AfinnLookupArray()
 function Sentences(text)
 {
 	let sentenceEnds = ".?!",
-		alphabet = "abcdefghijklmnopqrstuvwxyzé";
+		alphabet = "abcdefghijklmnopqrstuvwxyz";
 	
-	text = text.split(" St.").join(" St");
-	text = text.split(" Jan.").join(" Jan");
+	text = text.Replace(" St.", " St", false);
+	text = text.Replace(" Jan.", " Jan", false);
 	
 	let sentences = [];
 	
