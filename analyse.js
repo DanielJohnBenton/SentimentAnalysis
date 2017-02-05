@@ -25,10 +25,10 @@ let _fs = require("fs");
 	Limit the logged sentences in the console. The analysis is fast but the readouts are (comparatively) slow!
 */
 let _config = {
-	inputFile: "sources/shakespeare.txt",
+	inputFile: "sources/sentencetest.txt",
 	outputFile: "plot.txt",
 	sort: "asc",
-	log: 7
+	log: 20
 };
 
 _config.sort = _config.sort.toUpperCase();
@@ -197,6 +197,25 @@ function AfinnLookupArray()
 }
 
 /*
+	RemoveNonSentenceDelimiters (
+		STRING text
+	): STRING
+*/
+function RemoveNonSentenceDelimiters(text)
+{
+	let nonSentenceDelimiters = ["Mr", "Mrs", "St", "etc", "ETC", "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Sept", "Oct", "Nov", "Dec"];
+	
+	for(let i = 0, n = nonSentenceDelimiters.length; i < n; i++)
+	{
+		text = text.Replace(" "+ nonSentenceDelimiters[i] +".", " "+ nonSentenceDelimiters[i], false);
+		text = text.Replace(" "+ nonSentenceDelimiters[i].toUpperCase() +".", " "+ nonSentenceDelimiters[i], false);
+		text = text.Replace(" "+ nonSentenceDelimiters[i].toLowerCase() +".", " "+ nonSentenceDelimiters[i], false);
+	}
+	
+	return text;
+}
+
+/*
 	Sentences (
 		STRING text
 	): ARRAY [INTEGER index] = STRING
@@ -210,8 +229,7 @@ function Sentences(text)
 	let sentenceEnds = ".?!",
 		alphabet = "abcdefghijklmnopqrstuvwxyz";
 	
-	text = text.Replace(" St.", " St", false);
-	text = text.Replace(" Jan.", " Jan", false);
+	text = RemoveNonSentenceDelimiters(text);
 	
 	let sentences = [];
 	
