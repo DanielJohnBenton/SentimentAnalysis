@@ -127,5 +127,5 @@ _The bars show the mean average sentiment score of sentences with **sentiment sc
 
 # :eggplant: Acknowledgements
 * [AFINN](http://www2.imm.dtu.dk/pubdb/views/publication_details.php?id=6010) word-sentiment list ([paper](https://arxiv.org/pdf/1103.2903v1.pdf)) - Finn Årup Nielsen
-* [Project Gutenberg] (https://www.gutenberg.org/)
-* [Emoji cheat sheet] (http://www.webpagefx.com/tools/emoji-cheat-sheet/) - WebpageFX
+* [Project Gutenberg](https://www.gutenberg.org/)
+* [Emoji cheat sheet](http://www.webpagefx.com/tools/emoji-cheat-sheet/) - WebpageFX
