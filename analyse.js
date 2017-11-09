@@ -203,7 +203,7 @@ function AfinnLookupArray()
 */
 function RemoveNonSentenceDelimiters(text)
 {
-	let nonSentenceDelimiters = ["Mr", "Mrs", "St", "etc", "ETC", "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Sept", "Oct", "Nov", "Dec"];
+	let nonSentenceDelimiters = ["Mr", "Mrs", "St", "etc", "ETC", "Jan", "Feb", "Mar", "Apr", "Jun", "Jul", "Aug", "Sep", "Sept", "Oct", "Nov", "Dec", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z"];
 	
 	for(let i = 0, n = nonSentenceDelimiters.length; i < n; i++)
 	{
